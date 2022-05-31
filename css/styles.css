@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto-Thin';
-    src: url('fonts/Roboto-Thin.ttf') format('truetype');
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url('fonts/Roboto-LightItalic.ttf');
+    src: url('../fonts/Roboto-LightItalic.ttf');
 }
 
 body{
