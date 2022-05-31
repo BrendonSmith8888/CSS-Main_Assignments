@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('fonts/Roboto-LightItalic.ttf');
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#flex1{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.BlankLeftSpace{
+    display: flex;
+    flex:0.9;
+}
+
+.Column1{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.Column2{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.BlankRightSpace{
+    display: flex;
+    flex:0.9;
+}
+
+.HeaderLogo{
+    color: #F9FAF8;
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.HeaderLinks{
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: end;
+}
+
+a{
+    color: #E5E7EB;
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.HeroMainText{
+    color: #F9FAF8;
+    font-family: 'Roboto-Bold';
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.HeroSecondaryText{
+    color: #E5E7EB;
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    margin-right: 80px;
+}
+
+.placeholder{
+    align-items: center;
+    background-color: grey;
+    color: #E5E7EB;
+    display: flex;
+    font-family: 'Roboto-Thin';
+    height: 80%;
+    justify-content: center;
+    margin-top: 45px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.button{
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: none;
+    color: #E5E7EB;
+    font-family: 'Roboto-Bold';
+    height: 25px;
+    margin-left: 10px;
+    width: 115px;    
+}
+
+#flex2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.Column3{
+    flex:2;
+    flex-direction: column;    
+}
+.InformationHeader{
+    color: #1F2937;
+    font-family: 'Roboto-Bold';
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+.Row1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    text-align: center;
+}
+.Row1Column1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.BorderForImage{
+    border: #3882F6 solid 2px;
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+#flex3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+}
+
+.Column4{
+    color: #1F2937;
+    flex:1.5;
+    font-family: 'Roboto-LightItalic';
+    font-size: 36px;
+}
+
+figcaption{
+    text-align: end;
+    color: #1F2937;
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+}
+
+#flex4{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    width: 100%;
+}
+
+.CallToAction{
+    background-color: #3882F6;
+    display: flex;
+    flex:2;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+}
+
+.Column5{
+    display: inline-block;
+    color: #E5E7EB;
+    flex:3;
+    flex-direction: column;
+}
+
+.Column6{
+    align-items: center;
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Button2{
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: white 2px solid;
+    color: #E5E7EB;
+    font-family: 'Roboto-Bold';
+    height: 25px;
+    margin-left: 10px;
+    width: 115px;   
+}
+
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    text-align: center;
+}
