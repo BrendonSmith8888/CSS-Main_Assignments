@@ -13,57 +13,57 @@
     src: url('../fonts/Roboto-LightItalic.ttf');
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-#flex1{
+#flex1 {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.BlankLeftSpace{
+.BlankLeftSpace {
     display: flex;
-    flex:0.9;
+    flex: 0.9;
 }
 
-.Column1{
+.Column1 {
     display: flex;
-    flex:2;
+    flex: 2;
     flex-direction: column;
     margin-bottom: 100px;
 }
 
-.Column2{
+.Column2 {
     display: flex;
-    flex:2;
+    flex: 2;
     flex-direction: column;
     margin-bottom: 100px;
 }
 
-.BlankRightSpace{
+.BlankRightSpace {
     display: flex;
-    flex:0.9;
+    flex: 0.9;
 }
 
-.HeaderLogo{
+.HeaderLogo {
     color: #F9FAF8;
     font-family: 'Roboto-Bold';
     font-size: 24px;
     margin-bottom: 100px;
 }
 
-.HeaderLinks{
+.HeaderLinks {
     justify-content: space-between;
     margin-bottom: 100px;
     margin-top: 20px;
     text-align: end;
 }
 
-a{
+a {
     color: #E5E7EB;
     font-family: 'Roboto-Thin';
     font-size: 18px;
@@ -71,21 +71,21 @@ a{
     padding: 10px;
 }
 
-.HeroMainText{
+.HeroMainText {
     color: #F9FAF8;
     font-family: 'Roboto-Bold';
     font-size: 48px;
     font-weight: bolder;
 }
 
-.HeroSecondaryText{
+.HeroSecondaryText {
     color: #E5E7EB;
     font-family: 'Roboto-Thin';
     font-size: 18px;
     margin-right: 80px;
 }
 
-.placeholder{
+.placeholder {
     align-items: center;
     background-color: grey;
     color: #E5E7EB;
@@ -98,7 +98,7 @@ a{
     width: 100%;
 }
 
-.button{
+.button {
     background-color: #3882F6;
     border-radius: 10%;
     border: none;
@@ -106,66 +106,70 @@ a{
     font-family: 'Roboto-Bold';
     height: 25px;
     margin-left: 10px;
-    width: 115px;    
+    width: 115px;
 }
 
-#flex2{
+#flex2 {
     background-color: white;
     display: flex;
     flex-direction: row;
 }
 
-.Column3{
-    flex:2;
-    flex-direction: column;    
+.Column3 {
+    flex: 2;
+    flex-direction: column;
 }
-.InformationHeader{
+
+.InformationHeader {
     color: #1F2937;
     font-family: 'Roboto-Bold';
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
 }
-.Row1{
+
+.Row1 {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto-Thin';
     font-size: 18px;
     text-align: center;
 }
-.Row1Column1{
+
+.Row1Column1 {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-.BorderForImage{
+
+.BorderForImage {
     border: #3882F6 solid 2px;
     border-radius: 10%;
     height: 100px;
     width: 100px;
 }
 
-#flex3{
+#flex3 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: row;
 }
 
-.Column4{
+.Column4 {
     color: #1F2937;
-    flex:1.5;
+    flex: 1.5;
     font-family: 'Roboto-LightItalic';
     font-size: 36px;
 }
 
-figcaption{
+figcaption {
     text-align: end;
     color: #1F2937;
     font-family: 'Roboto-Bold';
     font-size: 18px;
 }
 
-#flex4{
+#flex4 {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -174,23 +178,23 @@ figcaption{
     width: 100%;
 }
 
-.CallToAction{
+.CallToAction {
     background-color: #3882F6;
     display: flex;
-    flex:2;
+    flex: 2;
     flex-direction: row;
     height: 50%;
     width: 50%;
 }
 
-.Column5{
+.Column5 {
     display: inline-block;
     color: #E5E7EB;
-    flex:3;
+    flex: 3;
     flex-direction: column;
 }
 
-.Column6{
+.Column6 {
     align-items: center;
     display: flex;
     flex: 1.5;
@@ -198,7 +202,7 @@ figcaption{
     justify-content: center;
 }
 
-.Button2{
+.Button2 {
     background-color: #3882F6;
     border-radius: 10%;
     border: white 2px solid;
@@ -206,10 +210,10 @@ figcaption{
     font-family: 'Roboto-Bold';
     height: 25px;
     margin-left: 10px;
-    width: 115px;   
+    width: 115px;
 }
 
-#footer{
+#footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-family: 'Roboto-Thin';
